@@ -1,3 +1,6 @@
+* CPU 情報の表示
+`cat /proc/cpuinfo`
+
 * 例: プロセス数: 1, プロセス動作時間: 100ms, 採取間隔: 1ms
   * `taskset -c 0 ./sched 1 100 1`
 
